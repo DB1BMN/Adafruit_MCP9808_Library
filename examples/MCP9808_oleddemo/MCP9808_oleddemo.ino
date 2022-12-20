@@ -44,7 +44,7 @@ void loop() {
   
   Serial.print("Temperature: ");
   Serial.print(event.temperature);
-  Serial.println(" degrees C");
+  Serial.println(" °C");
   Serial.println("");
 
   display.clearDisplay();
@@ -52,7 +52,7 @@ void loop() {
   display.println("~ MCP9808 ~");
   display.print("Temp: "); 
   display.print(event.temperature); 
-  display.println(" C");
+  display.println(" °C");
 
   display.display();
   yield();
