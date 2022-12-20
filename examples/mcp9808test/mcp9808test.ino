@@ -58,8 +58,8 @@ void loop() {
   float c = tempsensor.readTempC();
   float f = tempsensor.readTempF();
   Serial.print("Temp: "); 
-  Serial.print(c, 4); Serial.print("*C\t and "); 
-  Serial.print(f, 4); Serial.println("*F.");
+  Serial.print(c, 4); Serial.print("°C\t and "); 
+  Serial.print(f, 4); Serial.println("°F.");
   
   delay(2000);
   Serial.println("Shutdown MCP9808.... ");
